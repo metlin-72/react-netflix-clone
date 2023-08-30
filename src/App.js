@@ -1,5 +1,5 @@
-import { Outlet, Route, Routes } from "react-router-dom";
-import './App.css';
+import {Outlet, Route, Routes} from "react-router-dom";
+import "./App.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import MainPage from "./pages/MainPage/Index";
@@ -7,14 +7,14 @@ import DetailPage from "./pages/DetailPage/Index";
 import SearchPage from "./pages/SearchPage/Index";
 
 const Layout = () => {
-  return(
+  return (
     <div>
       <Nav />
       <Outlet />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 function App() {
   return (
